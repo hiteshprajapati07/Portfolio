@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/hitesh-prajapati-873289224/"><img src="/icons/linkedin (1).png" alt=""></a>
+                <a href="#"><img src="/icons/instagram (1).png" alt=""></a>
+                <a href="#"><img src="/icons/twitter.png" alt=""></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, aliquam!</p>
+                <div class="btns">
+                    <button>Download CV</button>
+                    <button>Hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="/IMG_20220508_164738.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+
+<script type="text/javascript">
+    new TypeIt(".multiText", {
+  strings: ["Hitesh Prajapati,","Coder , ","Designer"],
+  typespeed: 100,
+  speed: 80,
+  loop: true,
+  backdelay: 1500
+}).go();
+</script>
+
+</html>
